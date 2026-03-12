@@ -1,0 +1,29 @@
+<!-- index.ejs -->
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+    <title>Todo App</title>
+</head>
+
+<body>
+    <h1>Todo List</h1>
+    <div class="todo-count"></div>
+
+    <ul class="todo-list">
+        <% for (const todo of todos) { %>
+            <li class="todo-task" data-id="<%=todo._id %>">
+            <%= todo.task %>
+                <button class="delete-button">削除</button>
+            </li>
+            <% } %>
+    </ul>
+    <input type="text" class="input-text" />
+    <button class="add-button">追加</button>
+    <script src="/static/index.js" defer></script>
+</body>
+
+</html>
