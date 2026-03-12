@@ -1,5 +1,5 @@
 # Todo App
-講義で学んだ知識を用いて、Node.js と JavaScriptを利用したTodoリストアプリを作成しました。
+講義で学んだ知識を用いて、Node.js と JavaScriptを利用したTodoリストアプリを作成しました。  
 MongoDB をデータベースとして使用し、タスクの追加・削除などの基本機能を実装しています。
 ## 使用技術一覧
 <p style="display: inline">
